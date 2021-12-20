@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ManicurAPP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ManicurApp</string>
+    <string name="nav_header_subtitle">Productos de belleza</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_add">Agregar</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_productos">Productos</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_sucursales">Sucursales</string>
+
+    <!-- Productos -->
+    <string name="nameP1">VITU ESMALTE NV TONO 8 OASIS</string>
+    <string name="descriptionP1">Esmalte para uñas en tonos vibrantes.</string>
+    <string name="precioP1">$5.000</string>
+
+    <string name="nameP2">ESMALTE UÑAS MORE THAN NUDE CATRICE TONO 11</string>
+    <string name="descriptionP2">Los tonos nude translúcidos y suavemente brillantes se adaptan a cualquier tono de piel, aligeran visiblemente las uñas y son fáciles de aplicar.</string>
+    <string name="precioP2">$10.300</string>
+
+    <string name="nameP3">BASE PARA UÑAS SMART COLOR</string>
+    <string name="descriptionP3">Base para uñas + brillo. Capacidad: 10 ml</string>
+    <string name="precioP3">$4.500</string>
+
+    <string name="nameP4">ESMALTE PARA UÑAS SMART COLOR: ROJO SENSUAL</string>
+    <string name="descriptionP4">Esmalte de uñas multibeneficios. 9 Free Libre de sustancias tóxicas.</string>
+    <string name="precioP4">$7.500</string>
+
+    <string name="nameP5">MARK PINK ILLUSION ACABADO PERLADO</string>
+    <string name="descriptionP5">Sella tus uñas con brillo para que duren más tiempo.</string>
+    <string name="precioP5">$9.900</string>
+
+    <string name="nameP6">ESMALTE PARA UÑAS MASGLO ILUSION</string>
+    <string name="descriptionP6">Esmalte de uñas de belleza profesional.</string>
+    <string name="precioP6">$8.300</string>
+
+    <!-- Servicios -->
+    <string name="nameS1">MANICURA</string>
+    <string name="descriptionS1">De vez en cuando necesitamos consentirnos y qué mejor forma de hacerlo que un manicure.</string>
+    <string name="precioS1">$12.000</string>
+
+    <string name="nameS2">PEDICURA</string>
+    <string name="descriptionS2">Tratamiento de las afecciones cutáneas córneas propias de los pies.</string>
+    <string name="precioS2">$12.000</string>
+
+    <string name="nameS3">UÑAS ACRILICAS</string>
+    <string name="descriptionS3">La manicura para uñas acrílicas se puede realizar mediante puntas o moldes.</string>
+    <string name="precioS3">$50.000</string>
+
+    <string name="nameS4">DISEÑO DE UÑAS</string>
+    <string name="descriptionS4">Diseños que vienen pensados para uñas con mucho espacio, pero existen muchas opciones para uñas cortas.</string>
+    <string name="precioS4">$20.000</string>
+
+    <!-- Servicios -->
+    <string name="nameU1">Sucursal Belleza</string>
+    <string name="descriptionU1">Direccion: Carrera 15 # 12 - 32.</string>
+    <string name="telefonoU1">Telefono: 5555555</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_form_maps">FormMapsActivity</string>
+    <string name="title_activity_show_maps">ShowMapsActivity</string>
+
+</resources>

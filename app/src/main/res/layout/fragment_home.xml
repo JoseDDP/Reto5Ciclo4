@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/colorOpcional">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="21dp" />
+
+           <TextView
+               android:id="@+id/tvNameH1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-smallcaps"
+               android:text="Consejos y Tips"
+               android:textAlignment="center"
+               android:textColor="@color/white"
+               android:textSize="30dp"
+               android:textStyle="bold"
+               android:background="@color/colorPrincipal"/>
+
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="26dp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:gravity="center">
+
+               <ImageView
+                   android:id="@+id/imgP1"
+                   android:layout_width="386dp"
+                   android:layout_height="243dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/home1" />
+
+           </LinearLayout>
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+
+           <TextView
+               android:id="@+id/tvNameH2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-smallcaps"
+               android:text="4 tips para una manicure y pedicura duradera"
+               android:textAlignment="center"
+               android:textColor="@color/white"
+               android:textSize="24dp"
+               android:textStyle="bold"
+               android:background="@color/colorPrincipal"/>
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+           <TextView
+               android:id="@+id/tvNameH3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-condensed"
+               android:text="1. No mojes mucho tus manos antes de la manicure. La uña toma su tamaño normal después de que se seca. Pero si se aplica el pulimento antes se contrae y el esmalte no se adherirá correctamente."
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="18dp"
+               android:textStyle="normal"/>
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+
+           <TextView
+               android:id="@+id/tvNameH4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-condensed"
+               android:text="2. Aplica una capa fina. Para extender la vida de una manicure, es necesario aplicar una capa de revestimiento superior de alto brillo sobre la uña."
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="18dp"
+               android:textStyle="normal" />
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+
+       <ImageView
+           android:id="@+id/imgP2"
+           android:layout_width="match_parent"
+           android:layout_height="260dp"
+           android:layout_weight="1"
+           android:src="@drawable/home2" />
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+
+           <TextView
+               android:id="@+id/tvNameH5"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-condensed"
+               android:text="3. Protege. Usa guantes en trabajos de jardinería y lavar los platos para ayudar a proteger el esmalte de astillado y elevación. Los guantes también ayudan a proteger las cutículas.
+"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="18dp"
+               android:textStyle="normal" />
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+
+           <TextView
+               android:id="@+id/tvNameH6"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-condensed"
+               android:text="4. No lo olvides. Mantenga los dedos de tus pies  hidratados diariamente. El uso de calcetines  contribuye regularmente a secar los pies, lo que  puede arruinar una pedicura en una semana."
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="18dp"
+               android:textStyle="normal" />
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="15dp" />
+
+           <ImageView
+               android:id="@+id/imgP3"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:layout_weight="1"
+               android:src="@drawable/home3" />
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="5dp" />
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>
